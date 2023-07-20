@@ -1,0 +1,8 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/Styles/main.uss?fileID=7433441132597879392&amp;guid=156469946570aa242968f92bbb7f2cee&amp;type=3#main" />
+    <ui:VisualElement class="main-panel">
+        <ui:Label text="Создание комнаты" display-tooltip-when-elided="true" class="label" />
+        <ui:TextField picking-mode="Ignore" label="Введите название" name="UserNameRoom" style="height: 64px; width: 499px; margin-top: 10px; font-size: 17px; align-items: center; justify-content: center; flex-direction: row;" />
+        <ui:Button text="Создать комнату" display-tooltip-when-elided="true" name="CreateRoomBtn" class="button" style="height: 60px; width: 352px; -unity-text-align: middle-center;" />
+    </ui:VisualElement>
+</ui:UXML>

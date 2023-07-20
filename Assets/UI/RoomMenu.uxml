@@ -1,0 +1,7 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/Styles/main.uss?fileID=7433441132597879392&amp;guid=156469946570aa242968f92bbb7f2cee&amp;type=3#main" />
+    <ui:VisualElement class="main-panel" style="align-items: center; flex-direction: column; justify-content: center;">
+        <ui:Label text="Комната создана" display-tooltip-when-elided="true" name="RoomName" class="label" style="margin-top: 0;" />
+        <ui:Button text="Начать игру" display-tooltip-when-elided="true" name="StartGameBattle" class="button" style="white-space: normal; -unity-text-align: middle-center;" />
+    </ui:VisualElement>
+</ui:UXML>
